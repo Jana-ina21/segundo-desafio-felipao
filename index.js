@@ -18,7 +18,7 @@ function calcularRank(vitorias, derrotas) {
         nivel = "Imortal";
     }
 
-    return `O Heroi Super Gula com saldo de vitórias de ${saldoVitorias} está no nível de ${nivel}`;
+    return `O Heroi Super Gula tem saldo de vitórias de ${saldoVitorias} está no nível de ${nivel}`;
 }
 
 console.log(calcularRank(30, 5)); 
